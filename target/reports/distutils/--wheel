@@ -1,0 +1,50 @@
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools >= 40.8.0
+* Getting build dependencies for wheel...
+running egg_info
+writing BioGuard_Inventory.egg-info/PKG-INFO
+writing dependency_links to BioGuard_Inventory.egg-info/dependency_links.txt
+writing namespace_packages to BioGuard_Inventory.egg-info/namespace_packages.txt
+writing top-level names to BioGuard_Inventory.egg-info/top_level.txt
+reading manifest file 'BioGuard_Inventory.egg-info/SOURCES.txt'
+writing manifest file 'BioGuard_Inventory.egg-info/SOURCES.txt'
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build/lib/bioguard
+copying bioguard/inventory.py -> build/lib/bioguard
+copying bioguard/__init__.py -> build/lib/bioguard
+copying bioguard/validator.py -> build/lib/bioguard
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/bioguard
+copying build/lib/bioguard/inventory.py -> build/bdist.linux-x86_64/wheel/./bioguard
+copying build/lib/bioguard/__init__.py -> build/bdist.linux-x86_64/wheel/./bioguard
+copying build/lib/bioguard/validator.py -> build/bdist.linux-x86_64/wheel/./bioguard
+running install_egg_info
+running egg_info
+writing BioGuard_Inventory.egg-info/PKG-INFO
+writing dependency_links to BioGuard_Inventory.egg-info/dependency_links.txt
+writing namespace_packages to BioGuard_Inventory.egg-info/namespace_packages.txt
+writing top-level names to BioGuard_Inventory.egg-info/top_level.txt
+reading manifest file 'BioGuard_Inventory.egg-info/SOURCES.txt'
+writing manifest file 'BioGuard_Inventory.egg-info/SOURCES.txt'
+Copying BioGuard_Inventory.egg-info to build/bdist.linux-x86_64/wheel/./BioGuard_Inventory-1.0.dev0-py3.12.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/bioguard_inventory-1.0.dev0.dist-info/WHEEL
+creating '/root/BioGuard_Project/target/dist/BioGuard_Inventory-1.0.dev0/dist/.tmp-6rvev_nl/bioguard_inventory-1.0.dev0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'bioguard/__init__.py'
+adding 'bioguard/inventory.py'
+adding 'bioguard/validator.py'
+adding 'bioguard_inventory-1.0.dev0.dist-info/METADATA'
+adding 'bioguard_inventory-1.0.dev0.dist-info/WHEEL'
+adding 'bioguard_inventory-1.0.dev0.dist-info/namespace_packages.txt'
+adding 'bioguard_inventory-1.0.dev0.dist-info/top_level.txt'
+adding 'bioguard_inventory-1.0.dev0.dist-info/zip-safe'
+adding 'bioguard_inventory-1.0.dev0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built bioguard_inventory-1.0.dev0-py3-none-any.whl
